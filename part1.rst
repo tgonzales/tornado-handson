@@ -29,7 +29,6 @@ A sua documentação oficial (recomendo a sua leitura) nos brinda um Hello World
       application.listen(8888)
       tornado.ioloop.IOLoop.instance().start()
 
-refer. http://www.sergiofasilva.com/post/tutorial-blog-em-python-parte-5-base-de-dados
 
 Em nosso simples Hello World, podemos identificar:
 
@@ -73,8 +72,11 @@ Objetivo desse Hand's On
   pyenv virtualenv handson-tornado
   pyenv activate handson-tornado
   pip install tornado
+  
+#vim app.py
+  
+::
 
-  #vim app.py
   import tornado.web
   import tornado.ioloop
 
