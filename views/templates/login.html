@@ -1,0 +1,9 @@
+{% block content %}
+user: {{ current_user }}
+<form action="" method="post">
+    {% module xsrf_form_html() %}
+	<input type="text" name="username">
+	<input type="password" name="password">
+	<input type="submit" value="login">
+</form>
+{% end block %}
